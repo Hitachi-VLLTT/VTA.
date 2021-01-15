@@ -33,38 +33,37 @@ M = "\033[35;1m"  # Morado
 
 #FUNCIONES
 def corrida(s):
-        for c in s + '\n':
-                sys.stdout.write(c)
-                sys.stdout.flush()
-                time.sleep(3. / 250)
+	for c in + '\n':
+		sys.stdout.write(c)
+		sys.stdout.flush()
+		time.sleep(3. / 250)
 
 def valletta(s):
-        for c in s + '\n':
-                sys.stdout.write(c)
-                sys.stdout.flush()
-                time.sleep(2. / 120)
-
+	for c in + '\n':
+		sys.stdout.write(c)
+		sys.stdout.flush()
+		time.sleep(2. / 120)
+		
 def saludo(s):
-        for c in s + '\n':
-                sys.stdout.write(c)
-                sys.stdout.flush()
-                time.sleep(3. / 100)
+	for c in + '\n':
+		sys.stdout.write(c)
+		sys.stdout.flush()
+		time.sleep(3. / 100)
 
 def medio(s):
-        for c in s + '\n':
-                sys.stdout.write(c)
-                sys.stdout.flush()
-                time.sleep(8. / 200)
+	for c in + '\n':
+		sys.stdout.write(c)
+		sys.stdout.flush()
+		time.sleep(8. / 200)
 
 def lento(s):
-        for c in s + '\n':
-                sys.stdout.write(c)
-                sys.stdout.flush()
-                time.sleep(10. / 200)
+	for c in + '\n':
+		sys.stdout.write(c)
+		sys.stdout.flush()
+		time.sleep(10. / 200)
+		
 
-
-
-#------------->BIENVENIDA
+		#------------->BIENVENIDA
 os.system("clear")
 os.system("sleep 1")
 print (M+"Abriendo Programa final...")
@@ -125,62 +124,62 @@ eleccion = input("que elijes? ")
 
 if eleccion == "1":
 	def si():
-                os.system("sleep 1")
-                print (R+"V. quiere saber tu nombre")
-                print (" ")
-                os.system("sleep 1")
-                print (RR+"     1) Profesor")
-                print (CC+"     2) Itachi")
-                print (YY+"     3) Ari")
-                print (GL+"     4) Jhon")
-                print (R+"      5) Mama Coco")
-                print (C+"      6) Valeria")
-                print (" ")
-                resposta = input("              Quien eres? ")
-                if resposta == "1":
-                        def profesor():
-                                os.system("sleep 1")
-                                print (RR+"Un gusto tenerlo aqui, profesor...")
-                        profesor()
-                elif resposta == "2":
-                        def Itachi():
-                                os.system("sleep 1")
-                                print (CC+"un placer tenerlo creador...")
-                        Itachi()
-                elif resposta == "3":
-                        def Ari():
-                                os.system("sleep 1")
-                                print (YY+"Pierdete sopla gaitas (eso me lo enseno un colega")
-                        Ari()
-                elif resposta == "4":
-                        def Jhon():
-                                os.system("sleep 1")
-                                print (GL+"Saludos estudiante Jhon Doe...")
-                        Jhon()
-                elif resposta == "5":
-                        def MamaCoco():
-                                os.system("sleep 1")
-                                print (R+"Saludos Estudiante Coco Rivera...")
-                        MamaCoco()
-                elif resposta == "6":
-                        def Valeria():
-                                os.system("sleep 1")
-                                print (C+"Saludos estudiante H Valeria...")
-                else:
-                        os.system("sleep 1")
-                        print ("prueba con otro numero...")
-        si()
-
+		os.system("sleep 1")
+		print (Y+"	User	  ")
+		print (" ")
+		os.system("sleep 1")
+		print (RR+"	1)Profesor")
+		print (CC+"	2)Itachi  ")
+		print (YY+"	3)Ari	  ")
+		print (GL+"	4)Jhon	  ")
+		print (R+"	5)Mama Coco")
+		print (C+"	6)Valeria ")
+		print (" ")
+		resposta = input(R+"	Usuario ")
+		if resposta == "1":
+			def Profesor():
+				os.system("sleep 1")
+				print (RR+"Un gusto tenerlo aqui, Profesor...")
+			Profesor()
+		elif resposta == "2":
+			def Itachi():
+				os.system("sleep 1")
+				print (CC+"Un gusto tenerlo aqui, Owner...")
+			Itachi()
+		elif resposta == "3":
+			def Ari():
+				os.system("sleep 1")
+				print (YY+"Pierdete soplagaitas (eso me lo enseno un colega)")
+			Ari()
+		elif resposta == "4":
+			def Jhon():
+				os.system("sleep 1")
+				print (GL+"Saludos estudiante Jhon Doe...")
+			Jhon()
+		elif resposta == "5":
+			def MamaCoco():
+				os.system("sleep 1")
+				print (R+"Saludos estudiante Coco Rivera...")
+			MamaCoco()
+		elif resposta == "6":
+			def Valeria():
+				os.system("sleep 1")
+				print (C+"Saludos estudiante H Valeria...")
+			Valeria()
+		else:
+			print (R+"El numero que has elejido no esta dentro de la lista...")		
+	si()
+	
 elif eleccion == "2":
-        def no():
-                os.system("sleep 1")
-                print (Y+"Mantenerse en el anonimato es bueno...")
-        no()
+	def no():
+		os.system("sleep 1")
+		print (R+"ser anonimo es una base muy importante...")
+	no()
 
 else:
-        print ("no esta entre las opciones el numero que elejiste...")
-
-#----------->IMPORTANTE
+	print (R+"El numero que has elejido no esta dentro de la lista...")
+	
+#------------------->IMPORTANTE
 print (" ")
 
 os.system("sleep 2")
@@ -190,124 +189,146 @@ print (B+" coff coff, mejor sigamos... ")
 print (" ")
 
 os.system("sleep 1")
-print (C+"quieres conocer las funciones de V.?")
+print (C+"quieres conocer las funciones de V?")
 
 print (RR+" 1)Si")
-print (CC+" 2)No")
+print (WW+" 2)No")
 
 print (" ")
 respuesta = input(Y+" que deseas hacer? ")
 
 if respuesta == "1":
-        def profe():
-                print (C+" vamos a descubrirlo entonces...")
-                os.system("sleep 1")
-                print (C+"Mi nombre es V. y soy el proyecto final del estudiante Itachi")
-                os.system("sleep 2")
-                print (M+"como?, preguntaras, bueno yo tengo muchas funciones, desde un instalador de paquetes, un sistema de ataque SQL")
-                os.system("sleep 2")
-                print ("puedo dar consejos a los nuevos")
-                os.system("sleep 2")
-                print ("psd:")
-                print ("soy un proyecto es fase beta, pero mi creador se encargara de actualizar y mejorar...")
-                os.system("sleep 1")
-        profe()
-
+	def profe():
+		print (C+"Yo te las puedo mostrar...")
+		os.system("sleep 1")
+		print (R+" como ya sabras me llamo V. soy el trbajo final de itachi, yo me encargo de ejecutar diferentes tipos de funciones...")
+		os.system("sleep 2")
+		print (M+"poseo muchas funciones, desde un instalador de paquetes, un sistema de ataque SQL")
+		os.system("sleep 2")
+		print (CC+"tambien puedo proporcionar consejos basicos a los nuevos")
+		os.system("sleep 1")
+		print (YY+"entre otras cosas")
+		os.system("sleep 1")
+		print (R+"psd:	")
+		print (GG+"soy un proyecto en fase beta")
+		os.system("sleep 1")
+		print (WW+"asi que mi creador se encargara de anadir nuevas funciones conforme el vaya aprendiendo...")
+		os.system("sleep 1")
+	profe()
+	
 elif respuesta == "2":
-        def feo():
-                os.system("sleep 1")
-                print (Y+"sigamos...")
-        feo()
+	def feo():
+		os.system("sleep 1")
+		print ("Sigamos...")
+	feo()
 
-#----------->V.
+#---------------->EMPEZANDO CON LAS FUNCIONES DE V.
 os.system("sleep 1")
 print (" ")
 
 os.system("sleep 1")
-print (YY+"     1) consejos")
+print (YY+"     1) Consejos             ")
 print (CC+"     2) instalador de paquetes")
-print (WW+"     3) SQL (directamente)")
+print (WW+"     3) SQL (directamente)           ")
 print (" ")
 
 respuesta2 = input(C+"que quieres hacer? ")
 
-if respuesta == "1":
-        def yon():
-                os.system("sleep 1")
-                print (R+"Buenas tardes, usted ah elejido la opcion de consejo, y yo puedo proporvionarlos")
-                print (" ")
-                print (M+"1> manipulacion de archivos")
-                print (R+"2> como utilizar los repositorios")
-                print (" ")
-                reply = input("que elijes: ")
-                if reply == "1":
-                        def lol():
-                                os.system("sleep 1")
-                                print (C+"manipulacion de archivos")
-                                os.system("sleep 1")
-                                print (Y+"--_RENOMBRAR_--")
-                                print (R+" mv + nombre del archivo + nuevo nombre")
-                                os.system("sleep 1")
-                                print ("--_MOVER_--")
-                                print (YY+" mv + nombre del archivo + nueva ruta del archivo")
-                                os.system("sleep 1")
-                                print (M+"--_COPIAR_--")
-                                print (CC+"cp + nombre del archivo + nueva ruta del archivo")
-                                print ("(nota: si quieres copiar una carpeta debes poner -r despues del cp")
-	yon()
-
+if respuesta2 == "1":
+	def Yon():
+		os.system("sleep 1")
+		print (R+"usted ah elijido la opcion de consejos, y yo puedo proporcionarlos...")
+		print (" ")
+		print (M+"	1> Manipulacion de Archivos")
+		print (G+"	2> como utilizar los repositorios")
+		print (" ")
+		reply = input("que elijes: ")
+		if reply == "1":
+			def lol():
+				os.system("sleep 1")
+				print (C+"manipulacion de archivos")
+				os.system("sleep 1")
+				print (Y+"--__RENOMBRAR__--")
+				print (RR+"mv + nombre del archivo + nuevo nombre")
+				os.system("sleep 1")
+				print ("--__MOVER__--")
+				print (M+"mv + nombre del archio + nueva ruta del archivo")
+				os.system("sleep 1")
+				print (YY+"--__COPIAR__--")
+				print (CC+"cp + nombre del archivo + nueva ruta del archivo")
+				print (C+"Psd: ")
+				print ("para mover carpetas se introduce el -r despues de el cp")
+			lol()
+		elif reply == "2":
+			def lal():
+				os.system("sleep 1")
+				print (C+"los repositorios son carpetas con archivos dentro que cumplen con una funcion en especifico")
+				os.system("sleep 1")
+				print (R+"normalmente, se instalan los paquetes, se instala el repositorio y despues de eso, se entra con el comando cd")
+				os.system("sleep 1")
+				print (M+"al entrar con el comando cd, se aplica el comando ls para ver lo que hay dentro del repositorio")
+				os.system("sleep 1")
+				print (Y+"y se ejecuta con un comando en especifico, por ejemplo si el archivo esta escrito bajo python (.py)")
+				os.system("sleep 1")
+				print (C+"se ejecutara python + el nombre del archivo")
+			lal()	
+	Yon()	
+	
 elif respuesta2 == "2":
-        def hitachi():
-                os.system("sleep 1")
-                print (CC+" que deseas instalar?")
-                print (" ")
-                os.system("sleep 1")
-                print (BB+" 1) python")
-                print (YY+" 2) nano")
-                print (RR+" 3) cmatrix")
-                print (" ")
-                os.system("sleep 1")
-                respuestas = input(W+"Que deseas hacer? ")
-                if respuestas == "1":
-                        def nose():
-                                os.system("sleep 1")
-                                print (CC+"elejiste instalar el paquete python")
-                                os.system("sleep 1;pkg install python")
-                                print (RR+"instalando paquete python...")
-                        nose()
-                elif respuestas == "2":
-                        def sise():
-                                os.system("sleep 1")
-                                print (C+"elejiste instalar el paquete nano")
-                                os.system("sleep 1;pkg install nano")
-                                print (R+"instalando paquete nano...")
-                        sise()
-                elif respuestas == "3":
-                        def nosi():
-                                os.system("sleep 1")
-                                print (RR+"elejiste instalar el paquete cmatrix")
-                                os.system("sleep 1;pkg install cmatrix")
-                                print (CC+"instalando cmatrix...")
-
-        hitachi()
+	def hitachi():
+		os.system("sleep 1")
+		print (CC+" que deseas instalar?")
+		print (" ")
+		os.system("sleep 1")
+		print (BB+" 1) python")
+		print (YY+" 2) nano")
+		print (RR+" 3) cmatrix")
+		print (" ")
+		os.system("sleep 1")
+		respuestas = input(W+"Que deseas hacer? ")
+		if respuestas == "1":
+			def nose():
+				os.system("sleep 1")
+				print (CC+"elejiste instalar el paquete python")
+				os.system("sleep 1;pkg install python")
+				print (RR+"instalando paquete python...")
+			nose()
+		elif respuestas == "2":
+			def sise():
+				os.system("sleep 1")
+				print (C+"elejiste instalar el paquete nano")
+				os.system("sleep 1;pkg install nano")
+				print (R+"instalando paquete nano...")
+			sise()
+		elif respuestas == "3":
+			def nosi():
+				os.system("sleep 1")
+				print (RR+"elejiste instalar el paquete cmatrix")
+				os.system("sleep 1;pkg install cmatrix")
+				print (CC+"instalando cmatrix...")
+			nosi()
+		else:
+			 print ("intenta con otro numero...")
+	hitachi()
 
 elif respuesta2 == "3":
-        def ala():
-                print (" ")
-                print (" ")
-                os.system("sleep 1")
-                print ("Iniciando SQL")
-                os.system("sleep 3")
-        ala()
-
+	def ala():
+		print (" ")
+		os.system("sleep 2")
+		print ("Usted ah elejido el sql, para iniciarlo de manera correcta es necesario ejecutar el programa como si fuera el sql normalmente....")
+		os.system("sleep 1")
+		print ("Iniciando SQL")
+		os.system("sleep 3")
+	ala()
+	
 print (" ")
 print (" ")
 os.system("sleep 2")
-print ("Usted ah elejido el sql, para iniciarlo de manera correcta es necesario ejecutar el programa como si fuera el sql normalmente....")
+print ("ara iniciarlo de manera correcta es necesario ejecutar el programa como si fuera el sql normalmente....")
 os.system("sleep 1")
 print ("Iniciando SQL")
 os.system("sleep 3")
-#-------------------------------------------->SQL
+
 #!/usr/bin/env python
 
 """
@@ -315,6 +336,7 @@ Copyright (c) 2006-2021 sqlmap developers (http://sqlmap.org/)
 See the file 'LICENSE' for copying permission
 """
 
+from __future__ import print_function
 
 try:
     import sys
@@ -326,6 +348,21 @@ try:
     except ImportError:
         sys.exit("[!] wrong installation detected (missing modules). Visit 'https://github.com/sqlmapproject/sqlmap/#installation' for further details")
 
+    import bdb
+    import distutils
+    import glob
+    import inspect
+    import json
+    import logging
+    import os
+    import re
+    import shutil
+    import sys
+    import tempfile
+    import threading
+    import time
+    import traceback
+    import warnings
 
     warnings.filterwarnings(action="ignore", message="Python 2 is no longer supported")
     warnings.filterwarnings(action="ignore", message=".*was already imported", category=UserWarning)
@@ -374,7 +411,6 @@ try:
     from lib.core.settings import VERSION
     from lib.parse.cmdline import cmdLineParser
     from lib.utils.crawler import crawl
-    from thirdparty import six
 except KeyboardInterrupt:
     errMsg = "user aborted"
 
