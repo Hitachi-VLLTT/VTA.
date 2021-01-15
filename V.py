@@ -336,7 +336,6 @@ Copyright (c) 2006-2021 sqlmap developers (http://sqlmap.org/)
 See the file 'LICENSE' for copying permission
 """
 
-from __future__ import print_function
 
 try:
     import sys
@@ -348,21 +347,7 @@ try:
     except ImportError:
         sys.exit("[!] wrong installation detected (missing modules). Visit 'https://github.com/sqlmapproject/sqlmap/#installation' for further details")
 
-    import bdb
-    import distutils
-    import glob
-    import inspect
-    import json
-    import logging
-    import os
-    import re
-    import shutil
-    import sys
-    import tempfile
-    import threading
-    import time
-    import traceback
-    import warnings
+	
 
     warnings.filterwarnings(action="ignore", message="Python 2 is no longer supported")
     warnings.filterwarnings(action="ignore", message=".*was already imported", category=UserWarning)
