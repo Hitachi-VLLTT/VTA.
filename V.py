@@ -356,7 +356,6 @@ try:
     warnings.filterwarnings(action="ignore", category=UserWarning, module="psycopg2")
 
     from lib.core.data import logger
-
     from lib.core.common import banner
     from lib.core.common import checkIntegrity
     from lib.core.common import checkPipedInput
